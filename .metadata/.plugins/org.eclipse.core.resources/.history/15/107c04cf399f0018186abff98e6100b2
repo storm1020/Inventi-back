@@ -1,0 +1,10 @@
+package br.com.fiap.inventi.testes;
+
+import javax.swing.JOptionPane;
+
+public class TesteUsuarioPj {
+
+	public static void main(String[] args) {
+	}
+
+}

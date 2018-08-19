@@ -1,0 +1,6 @@
+package br.com.fiap.inventi.beans;
+
+public class TipoUsuario {
+	private int codigoTipo;
+	private String descricao;
+}

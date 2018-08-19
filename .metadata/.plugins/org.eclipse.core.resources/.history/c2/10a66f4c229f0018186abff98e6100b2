@@ -1,0 +1,10 @@
+package br.com.fiap.inventi.beans;
+
+public class Usuario {
+
+	private int codigoUsuario;
+	private String nomeUsuario;
+	private String loginUsuario;
+	private String senhaUsuario;
+	
+}

@@ -1,0 +1,13 @@
+package br.com.fiap.inventi.conexao;
+/*
+ * Classe responsável por conexões com o banco e retorno de status de conexão.
+ * **/
+import java.sql.DriverManager;
+import com.mysql.jdbc.Connection;
+
+public class ConnectionFactory {	
+	public Connection getConnection() throws Exception{
+		Class.forName("com.mysql.jdbc.Driver");
+		return (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/teste", "root", "inventi123");		
+	}
+}

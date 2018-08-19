@@ -1,0 +1,23 @@
+package br.com.fiap.inventi.beans;
+
+public class TipoUsuario {
+	private int codigoTipo;
+	private String descricaoTipo;
+	
+	public TipoUsuario(){
+		
+	}
+	
+	public int getCodigoTipo() {
+		return codigoTipo;
+	}
+	public void setCodigoTipo(int codigoTipo) {
+		this.codigoTipo = codigoTipo;
+	}
+	public String getDescricaoTipo() {
+		return descricaoTipo;
+	}
+	public void setDescricaoTipo(String descricaoTipo) {
+		this.descricaoTipo = descricaoTipo;
+	}
+}

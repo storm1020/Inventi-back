@@ -1,0 +1,19 @@
+package br.com.fiap.inventi.testes;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.inventi.beans.TipoUsuario;
+import br.com.fiap.inventi.beans.Usuario;
+import br.com.fiap.inventi.beans.UsuarioPj;
+
+public class TesteUsuarioPj {
+
+	public static void main(String[] args) {
+		TipoUsuario tpUsuarioPj = new TipoUsuario();
+		Usuario usuarioPj = new Usuario();
+		tpUsuarioPj.setCodigoTipo(Integer.parseInt(JOptionPane.showInputDialog("Digite o código do usuário: ")));
+		tpUsuarioPj.setDescricaoTipo(JOptionPane.showInputDialog("Digite a descrição do usuário: "));
+		usuarioPj.setTipoUsuario();
+	}
+
+}

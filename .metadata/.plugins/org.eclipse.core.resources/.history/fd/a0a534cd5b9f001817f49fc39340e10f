@@ -1,0 +1,35 @@
+package br.com.fiap.inventi.testes;
+
+import com.mysql.jdbc.Connection;
+
+import br.com.fiap.inventi.conexao.ConnectionFactory;
+
+/**
+ * Realizar teste de conexão com o SERVIDOR
+ * */
+public class TesteConexao {
+
+	public static void main(String[] args) throws Exception {
+		Connection pConexao = null;
+		
+		//Tentar conexao, se não houver retorne informacao.
+		try{
+			pConexao = new ConnectionFactory().getConnection();
+			System.out.println("Conexão aberta com sucesso!");
+			
+		} catch (Exception e) {
+			System.out.println("Houve um erro de conexão!");
+			
+		} finally {
+			
+			try{
+				pConexao.close();
+				
+			} catch (Exception e) {
+				System.out.println(e);
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package br.com.fiap.inventi.testes;
+
+import br.com.fiap.inventi.conexao.ConnectionFactory;
+
+/**
+ * Realizar teste de conexão com o SERVIDOR
+ * */
+public class TesteConexao {
+
+	public static void main(String[] args) throws Exception {
+	}
+}

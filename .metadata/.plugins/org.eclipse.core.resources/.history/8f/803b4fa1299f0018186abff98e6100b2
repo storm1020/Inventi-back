@@ -1,0 +1,8 @@
+package br.com.fiap.inventi.beans;
+
+public class UsuarioPj extends Usuario {
+	private int codigo;
+	private String cpf;
+	
+	
+}

@@ -1,0 +1,48 @@
+package br.com.fiap.inventi.beans;
+
+public class UsuarioPf extends Usuario {
+	private int codigo;
+	private String cpf;
+	private Usuario usuario;
+	
+	public UsuarioPf(){
+		
+	}
+	
+	public String getAll(){
+		return "Código Usuário PF: " + codigo + "\n" +
+				"CPF: " + cpf + "\n"
+	}
+	
+	public void setAll(int pCodigo, String pCpf, Usuario pUsuario){
+		setCodigo(pCodigo);
+		setCpf(pCpf);
+		setUsuario(pUsuario);
+	}
+	
+	public int getCodigo() {
+		return codigo;
+	}
+	
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	
+	public String getCpf() {
+		return cpf;
+	}
+	
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+	
+}

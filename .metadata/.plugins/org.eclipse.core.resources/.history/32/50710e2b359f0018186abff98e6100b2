@@ -1,0 +1,15 @@
+package br.com.fiap.inventi.testes;
+
+import br.com.fiap.inventi.beans.TipoUsuario;
+import br.com.fiap.inventi.beans.Usuario;
+import br.com.fiap.inventi.beans.UsuarioPj;
+
+public class TesteUsuarioPj {
+
+	public static void main(String[] args) {
+		TipoUsuario tpUsuarioPj = new TipoUsuario();
+		String descricaoUsuario = tpUsuarioPj.setCodigoTipo(123);
+		Usuario usuarioPj = new Usuario(123, "teste", "iago", "123")
+	}
+
+}

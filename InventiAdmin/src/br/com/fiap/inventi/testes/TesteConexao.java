@@ -1,0 +1,11 @@
+package br.com.fiap.inventi.testes;
+
+/**
+ * Realizar teste de conexão com o SERVIDOR
+ * */
+
+public class TesteConexao {
+
+	public static void main(String[] args) throws Exception {
+	}
+}

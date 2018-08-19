@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.inventi.execoes.Excecao"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="br.com.fiap.inventi.conexao.ConnectionFactory"/>
+<fullyQualifiedTypeName name="br.com.fiap.inventi.testes.TesteUsuarioPj"/>
+<fullyQualifiedTypeName name="br.com.fiap.inventi.beans.Usuario"/>
+<fullyQualifiedTypeName name="br.com.fiap.inventi.beans.UsuarioPj"/>
+<fullyQualifiedTypeName name="br.com.fiap.inventi.beans.TipoUsuario"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+</qualifiedTypeNameHistroy>

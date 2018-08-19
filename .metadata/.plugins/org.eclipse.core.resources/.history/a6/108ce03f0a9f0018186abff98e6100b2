@@ -1,0 +1,13 @@
+package br.com.fiap.inventi.conexao;
+import java.sql.DriverManager;
+
+import com.mysql.jdbc.Connection;
+
+public class ConnectionFactory {
+	
+	public Connection getConnection() throws Exception{
+		/*MSQL*/
+		Class.forName("com.mysql.jdbc.Driver");
+		return DriverManager.getConntection()
+	}
+}

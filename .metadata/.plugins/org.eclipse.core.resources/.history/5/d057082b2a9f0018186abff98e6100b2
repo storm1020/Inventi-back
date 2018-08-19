@@ -1,0 +1,43 @@
+package br.com.fiap.inventi.beans;
+/**
+ * Classe com getters/setters do objeto usuario
+ * */
+public class UsuarioPj extends Usuario {
+	
+	private int codigo;
+	private String cnpj;
+	private Usuario usuario;
+	
+	public UsuarioPj(){
+		
+	}
+	
+	public String getAll(){
+		return "Codigo Usuário PJ: " + codigo + "\n" +
+				"CNPJ: " + cnpj + "\n" +
+				;
+	}
+	
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	public String getCnpj() {
+		return cnpj;
+	}
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+	
+	
+}
